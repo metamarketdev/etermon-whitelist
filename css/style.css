@@ -11292,6 +11292,7 @@ body {
 }
 .main-white-list .white-list-body .white-list-register .form-check-label {
   color: #ffffff;
+  vertical-align: middle;
 }
 
 .special-button {
