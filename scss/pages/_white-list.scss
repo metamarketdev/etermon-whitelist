@@ -58,10 +58,12 @@
       }
       .form-check {
         padding: 0;
+        @include flexbox();
+        @include align-items(center);
       }
       .form-check-label {
         color: #ffffff;
-        vertical-align: middle;
+        margin-left: 0.5rem;
       }
     }
   }
